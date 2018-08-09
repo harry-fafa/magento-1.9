@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	 <modules>
+        <Fafa_Test>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Fafa_Test>
+    </modules>
+</config>

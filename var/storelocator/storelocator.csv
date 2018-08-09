@@ -1,0 +1,5 @@
+title,is_active,phone,country_id,region,street,city,postal_code,stores,desc,latitude,longitude,website,icon,image
+ART_VAN - Pure Sleep,1,(888)_920-1642,US,AL,2570 Jackson Rd,Ann Arbor,48103,"1,2",Store Description,43.7965653,-87.768194,,,
+Gardiners Furniture & Mattress,1,410-828-8200,USA,AL,1530 E Joppa Rd.,Towson,21286,1,Store Description,,,www.gardiners.com,iwd/storelocator/500_1.png,iwd/storelocator/500_1.png
+Gardiners Furniture & Mattress,1,410-876-2228,US,AL,1030 Baltimore Blvd. Suite 110,Westminster,21157,1,Store Description,,,www.gardiners.com,iwd/storelocator/500_1.png,iwd/storelocator/500_1.png
+Urban Mattress,1,303-470-9228,AG,AL,320 South Colorado Blvd,Denver,80246,1,Store Description,,,www.gardiners.com,iwd/storelocator/500_1.png,iwd/storelocator/500_1.png

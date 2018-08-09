@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+      <Fafa_Test>
+          <version>0.1.0</version>
+      </Fafa_Test>
+  </modules>
+  <global>
+    <models>
+      <test>
+        <class>Fafa_Test_Model</class>
+        <resourceModel>test_resource</resourceModel>
+      </test>
+      <test_resource>
+        <class>Fafa_Test_Model_Resource</class>
+        <entities>
+          <test>
+            <table>blog_posts</table>
+          </test>
+        </entities>
+      </test_resource>
+    </models>
+    <resources>
+      <test_setup>
+        <setup>
+          <module>Fafa_Test</module>
+          <class>Fafa_Test_Model_Resource_Setup</class>
+        </setup>
+      </test_setup>
+    </resources>
+  </global>
+  <frontend>
+    <routers>
+      <test>
+        <use>standard</use>
+        <args>
+          <module>Fafa_Test</module>
+          <frontName>test</frontName>
+        </args>
+      </test>
+    </routers>
+  </frontend>
+</config>
